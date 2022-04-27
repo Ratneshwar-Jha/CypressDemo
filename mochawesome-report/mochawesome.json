@@ -1,84 +1,23 @@
 {
   "stats": {
-    "suites": 1,
-    "tests": 1,
+    "suites": 0,
+    "tests": 0,
     "passes": 0,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-04-03T14:36:12.532Z",
-    "end": "2022-04-03T14:36:18.411Z",
-    "duration": 5879,
-    "testsRegistered": 1,
-    "passPercent": 0,
-    "pendingPercent": 0,
+    "failures": 0,
+    "start": "2022-04-25T04:39:24.789Z",
+    "end": "2022-04-25T04:39:24.789Z",
+    "duration": 0,
+    "testsRegistered": 0,
+    "passPercent": null,
+    "pendingPercent": null,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false
   },
   "results": [
-    {
-      "uuid": "2c6a0d7e-4301-480a-802c-51c28e63d243",
-      "title": "",
-      "fullFile": "cypress/integration/2-advanced-examples/BDD/ecommerce.feature",
-      "file": "cypress/integration/2-advanced-examples/BDD/ecommerce.feature",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "f73c97e4-9c3d-48ce-b29f-9577d464570d",
-          "title": "End to end Ecommerece Validation",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Ecommerece products Deleivery",
-              "fullTitle": "End to end Ecommerece Validation Ecommerece products Deleivery",
-              "timedOut": null,
-              "duration": 2179,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "TypeError: Cannot read properties of undefined (reading 'data')",
-                "estack": "TypeError: Cannot read properties of undefined (reading 'data')\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\BDD\\ecommerce.feature:46:9)\n    at Context.resolveAndRunStepDefinition (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\BDD\\ecommerce.feature:12299:29)\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\BDD\\ecommerce.feature:11620:35)",
-                "diff": null
-              },
-              "uuid": "3890c4d8-32d2-4f77-a080-897de4766054",
-              "parentUUID": "f73c97e4-9c3d-48ce-b29f-9577d464570d",
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "3890c4d8-32d2-4f77-a080-897de4766054"
-          ],
-          "pending": [],
-          "skipped": [],
-          "duration": 2179,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    }
+    false
   ],
   "meta": {
     "mocha": {
