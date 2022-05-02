@@ -1,0 +1,50 @@
+{
+  "uid" : "833912e3544056b7",
+  "name" : "My first Test case",
+  "fullName" : "My First Test Suit.My first Test case",
+  "historyId" : "d0513c36df55aa783ca6700002a3b2e7",
+  "time" : {
+    "start" : 1651387647838,
+    "stop" : 1651387650551,
+    "duration" : 2713
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer\n                    at http://localhost:53764/__cypress/runner/cypress_runner.js:159318:82\n                    at visitFailedByErr (http://localhost:53764/__cypress/runner/cypress_runner.js:158668:12)\n                    at http://localhost:53764/__cypress/runner/cypress_runner.js:159317:11\n                    at tryCatcher (http://localhost:53764/__cypress/runner/cypress_runner.js:13022:23)\n                    at Promise._settlePromiseFromHandler (http://localhost:53764/__cypress/runner/cypress_runner.js:10957:31)\n                    at Promise._settlePromise (http://localhost:53764/__cypress/runner/cypress_runner.js:11014:18)\n                    at Promise._settlePromise0 (http://localhost:53764/__cypress/runner/cypress_runner.js:11059:10)\n                    at Promise._settlePromises (http://localhost:53764/__cypress/runner/cypress_runner.js:11135:18)\n                    at _drainQueueStep (http://localhost:53764/__cypress/runner/cypress_runner.js:7729:12)\n                    at _drainQueue (http://localhost:53764/__cypress/runner/cypress_runner.js:7722:9)\n                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:53764/__cypress/runner/cypress_runner.js:7738:5)\n                    at Async.drainQueues (http://localhost:53764/__cypress/runner/cypress_runner.js:7608:14)\n                From Your Spec Code:\n                    at Context.eval (http://localhost:53764/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\TestingGoogle.js:102:8)\n                \n                From Node.js Internals:\n                  Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)\n                  ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "testClass",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "testMethod",
+    "value" : "My first Test case"
+  }, {
+    "name" : "package",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "833912e3544056b7.json",
+  "parameterValues" : [ ]
+}

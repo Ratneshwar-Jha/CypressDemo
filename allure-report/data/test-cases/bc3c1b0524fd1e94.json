@@ -1,0 +1,90 @@
+{
+  "uid" : "bc3c1b0524fd1e94",
+  "name" : "can delete all completed tasks",
+  "fullName" : "example to-do app with a checked task.can delete all completed tasks",
+  "historyId" : "669b373400daecd8f499d0d8c74da7b1",
+  "time" : {
+    "start" : 1651387214409,
+    "stop" : 1651387215094,
+    "duration" : 685
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "testMethod",
+    "value" : "can delete all completed tasks"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa720fd7840e082d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386498502,
+        "stop" : 1651386499072,
+        "duration" : 570
+      }
+    }, {
+      "uid" : "cdeccc28ffa13d5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651384959321,
+        "stop" : 1651384959867,
+        "duration" : 546
+      }
+    }, {
+      "uid" : "789509d912569a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377262244,
+        "stop" : 1651377262801,
+        "duration" : 557
+      }
+    }, {
+      "uid" : "f5bdb5582af2cd28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375857782,
+        "stop" : 1651375858445,
+        "duration" : 663
+      }
+    }, {
+      "uid" : "4a6fea24743fef2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375664293,
+        "stop" : 1651375664872,
+        "duration" : 579
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc3c1b0524fd1e94.json",
+  "parameterValues" : [ ]
+}

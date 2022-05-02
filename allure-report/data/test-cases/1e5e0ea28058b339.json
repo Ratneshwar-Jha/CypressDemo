@@ -1,0 +1,90 @@
+{
+  "uid" : "1e5e0ea28058b339",
+  "name" : "can check off an item as completed",
+  "fullName" : "example to-do app.can check off an item as completed",
+  "historyId" : "2d21639f1b039d4eb00c1d1650dc7e54",
+  "time" : {
+    "start" : 1651387212799,
+    "stop" : 1651387213250,
+    "duration" : 451
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testMethod",
+    "value" : "can check off an item as completed"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c79c3cbc8958ea6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386496752,
+        "stop" : 1651386497218,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "b8f557631d982b13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651384957734,
+        "stop" : 1651384958181,
+        "duration" : 447
+      }
+    }, {
+      "uid" : "7f88d9008c6bea9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377260463,
+        "stop" : 1651377260942,
+        "duration" : 479
+      }
+    }, {
+      "uid" : "172f6a1ec3f68b9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375856099,
+        "stop" : 1651375856564,
+        "duration" : 465
+      }
+    }, {
+      "uid" : "222d3ddcd0aee572",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375662756,
+        "stop" : 1651375663192,
+        "duration" : 436
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e5e0ea28058b339.json",
+  "parameterValues" : [ ]
+}

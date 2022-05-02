@@ -1,23 +1,80 @@
 {
   "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-29T08:32:10.707Z",
-    "end": "2022-04-29T08:32:10.707Z",
-    "duration": 0,
-    "testsRegistered": 0,
-    "passPercent": null,
-    "pendingPercent": null,
+    "start": "2022-05-01T08:54:14.025Z",
+    "end": "2022-05-01T08:54:31.751Z",
+    "duration": 17726,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false
   },
   "results": [
-    false
+    {
+      "uuid": "0e288c6c-f8de-44f7-b202-e18542d64079",
+      "title": "",
+      "fullFile": "cypress/integration/2-advanced-examples/GroupOne/Test6.js",
+      "file": "cypress/integration/2-advanced-examples/GroupOne/Test6.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f350dbf4-a008-4756-a64d-45fcec476d37",
+          "title": "My First Test Suit",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "My first Test case",
+              "fullTitle": "My First Test Suit My first Test case",
+              "timedOut": null,
+              "duration": 13208,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://rahulshettyacademy.com/AutomationPractice/\"); //First way to click hidden item\n//cy.get('div.mouse-hover-content').invoke('show')\n//cy.contains('Top').click()\n//cy.url().should('include','top')\n//Second way to click hidden item forcefully\ncy.contains('Top').click({\n  force: true\n}); //validate if URL contais top word in it\ncy.url().should('include', 'top');",
+              "err": {},
+              "uuid": "3a4d45a0-a7e8-4518-abb8-24f6e973af46",
+              "parentUUID": "f350dbf4-a008-4756-a64d-45fcec476d37",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3a4d45a0-a7e8-4518-abb8-24f6e973af46"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13208,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
   ],
   "meta": {
     "mocha": {

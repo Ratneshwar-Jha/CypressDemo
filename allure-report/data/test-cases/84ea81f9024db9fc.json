@@ -1,0 +1,585 @@
+{
+  "uid" : "84ea81f9024db9fc",
+  "name" : "My first Test case",
+  "fullName" : "My First Test Suit.My first Test case",
+  "historyId" : "d0513c36df55aa783ca6700002a3b2e7",
+  "time" : {
+    "start" : 1651393595551,
+    "stop" : 1651393606181,
+    "duration" : 10630
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 66,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "testClass",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "testMethod",
+    "value" : "My first Test case"
+  }, {
+    "name" : "package",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3b2b194eeed98f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393523835,
+        "stop" : 1651393538192,
+        "duration" : 14357
+      }
+    }, {
+      "uid" : "9331b1c30b723256",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1651393037025,
+        "stop" : 1651393039844,
+        "duration" : 2819
+      }
+    }, {
+      "uid" : "a157d2815bc0c028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651392940376,
+        "stop" : 1651392994187,
+        "duration" : 53811
+      }
+    }, {
+      "uid" : "388d07ca9e8b15f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651392784213,
+        "stop" : 1651392799386,
+        "duration" : 15173
+      }
+    }, {
+      "uid" : "38460ac833c2de62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651392746702,
+        "stop" : 1651392759771,
+        "duration" : 13069
+      }
+    }, {
+      "uid" : "fde3a449a158c2e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651392712226,
+        "stop" : 1651392722904,
+        "duration" : 10678
+      }
+    }, {
+      "uid" : "16210c5b7415777c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651392647781,
+        "stop" : 1651392659929,
+        "duration" : 12148
+      }
+    }, {
+      "uid" : "c5d04aca7400a216",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1651391084409,
+        "stop" : 1651391087417,
+        "duration" : 3008
+      }
+    }, {
+      "uid" : "d2ec36a14250b16d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651390990432,
+        "stop" : 1651391041044,
+        "duration" : 50612
+      }
+    }, {
+      "uid" : "c4ef58ed1133d730",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651390850190,
+        "stop" : 1651390863750,
+        "duration" : 13560
+      }
+    }, {
+      "uid" : "4fa7165a201dca42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651390796672,
+        "stop" : 1651390810859,
+        "duration" : 14187
+      }
+    }, {
+      "uid" : "191f1b498bfd3901",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651390761367,
+        "stop" : 1651390772879,
+        "duration" : 11512
+      }
+    }, {
+      "uid" : "220f25a0b0a97930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651390695106,
+        "stop" : 1651390708256,
+        "duration" : 13150
+      }
+    }, {
+      "uid" : "84e5a02b8c1f8c41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651388054966,
+        "stop" : 1651388062699,
+        "duration" : 7733
+      }
+    }, {
+      "uid" : "7f8916888ae2d5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651388027173,
+        "stop" : 1651388035468,
+        "duration" : 8295
+      }
+    }, {
+      "uid" : "833912e3544056b7",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1651387647838,
+        "stop" : 1651387650551,
+        "duration" : 2713
+      }
+    }, {
+      "uid" : "69a5337b9ab19401",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'name')",
+      "time" : {
+        "start" : 1651387558404,
+        "stop" : 1651387622594,
+        "duration" : 64190
+      }
+    }, {
+      "uid" : "b528fc4d834bb4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387473858,
+        "stop" : 1651387483134,
+        "duration" : 9276
+      }
+    }, {
+      "uid" : "6a2942d0937a6991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387451392,
+        "stop" : 1651387459395,
+        "duration" : 8003
+      }
+    }, {
+      "uid" : "e52a8a02e3a71708",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387430208,
+        "stop" : 1651387438302,
+        "duration" : 8094
+      }
+    }, {
+      "uid" : "326de299ceb6c363",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387405995,
+        "stop" : 1651387417051,
+        "duration" : 11056
+      }
+    }, {
+      "uid" : "20d7773fa204e6b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387380874,
+        "stop" : 1651387392111,
+        "duration" : 11237
+      }
+    }, {
+      "uid" : "f9c6b59280b478e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387361390,
+        "stop" : 1651387369006,
+        "duration" : 7616
+      }
+    }, {
+      "uid" : "f8a03ad0aac5c612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387341159,
+        "stop" : 1651387348630,
+        "duration" : 7471
+      }
+    }, {
+      "uid" : "b4d92ffa31bbaf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387302941,
+        "stop" : 1651387324150,
+        "duration" : 21209
+      }
+    }, {
+      "uid" : "23053cc1d3cd8440",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387282506,
+        "stop" : 1651387290736,
+        "duration" : 8230
+      }
+    }, {
+      "uid" : "864b8baba61c6b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651387261109,
+        "stop" : 1651387269400,
+        "duration" : 8291
+      }
+    }, {
+      "uid" : "51dc3a31bac3777e",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1651386930389,
+        "stop" : 1651386933118,
+        "duration" : 2729
+      }
+    }, {
+      "uid" : "e1162abb8b090032",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'name')",
+      "time" : {
+        "start" : 1651386840504,
+        "stop" : 1651386904984,
+        "duration" : 64480
+      }
+    }, {
+      "uid" : "c84f3017f22549fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386755343,
+        "stop" : 1651386764288,
+        "duration" : 8945
+      }
+    }, {
+      "uid" : "3c8b7b47cd8e33b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386733623,
+        "stop" : 1651386741816,
+        "duration" : 8193
+      }
+    }, {
+      "uid" : "8381b97d9d9fc21a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386711805,
+        "stop" : 1651386719692,
+        "duration" : 7887
+      }
+    }, {
+      "uid" : "d51d9a68d2154b4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386688307,
+        "stop" : 1651386698823,
+        "duration" : 10516
+      }
+    }, {
+      "uid" : "76c977c6c9a71c11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386663000,
+        "stop" : 1651386674324,
+        "duration" : 11324
+      }
+    }, {
+      "uid" : "27a963fe27a04711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386642980,
+        "stop" : 1651386650516,
+        "duration" : 7536
+      }
+    }, {
+      "uid" : "721e9fdd0b2d1c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386623065,
+        "stop" : 1651386630593,
+        "duration" : 7528
+      }
+    }, {
+      "uid" : "2641faf9f5acfcf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386588649,
+        "stop" : 1651386607372,
+        "duration" : 18723
+      }
+    }, {
+      "uid" : "83dbc5d4f72c2742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386567744,
+        "stop" : 1651386575368,
+        "duration" : 7624
+      }
+    }, {
+      "uid" : "a1f053d965ace11a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386544523,
+        "stop" : 1651386552523,
+        "duration" : 8000
+      }
+    }, {
+      "uid" : "efa0ea442ce2455d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385874852,
+        "stop" : 1651385882868,
+        "duration" : 8016
+      }
+    }, {
+      "uid" : "1847a5a138eb9c96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385855061,
+        "stop" : 1651385864641,
+        "duration" : 9580
+      }
+    }, {
+      "uid" : "eb839ccadf1a24bf",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://qa1.myhcl.com/smartrecruit_CBT\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1651385387516,
+        "stop" : 1651385389254,
+        "duration" : 1738
+      }
+    }, {
+      "uid" : "c7ef35fc63f0289f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385304388,
+        "stop" : 1651385363450,
+        "duration" : 59062
+      }
+    }, {
+      "uid" : "4d20cdf4fb656173",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385214569,
+        "stop" : 1651385224182,
+        "duration" : 9613
+      }
+    }, {
+      "uid" : "b17e56a8790acde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385194004,
+        "stop" : 1651385201937,
+        "duration" : 7933
+      }
+    }, {
+      "uid" : "74770d173331637f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385172899,
+        "stop" : 1651385180801,
+        "duration" : 7902
+      }
+    }, {
+      "uid" : "903e49e4da826cb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385149229,
+        "stop" : 1651385159826,
+        "duration" : 10597
+      }
+    }, {
+      "uid" : "cbfa5a19059d69ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385123739,
+        "stop" : 1651385135443,
+        "duration" : 11704
+      }
+    }, {
+      "uid" : "3d1b3ab9a6bb6be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385102272,
+        "stop" : 1651385110327,
+        "duration" : 8055
+      }
+    }, {
+      "uid" : "f0bc9093154b2ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385082923,
+        "stop" : 1651385090060,
+        "duration" : 7137
+      }
+    }, {
+      "uid" : "1d89bbcb35739ac1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385045730,
+        "stop" : 1651385067666,
+        "duration" : 21936
+      }
+    }, {
+      "uid" : "93bbb7281c0c64c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385025403,
+        "stop" : 1651385033123,
+        "duration" : 7720
+      }
+    }, {
+      "uid" : "6786082f34658ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651385003531,
+        "stop" : 1651385011693,
+        "duration" : 8162
+      }
+    }, {
+      "uid" : "3aab1b208839db94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651382997677,
+        "stop" : 1651383005464,
+        "duration" : 7787
+      }
+    }, {
+      "uid" : "8acab0bc0081a214",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651382970381,
+        "stop" : 1651382978514,
+        "duration" : 8133
+      }
+    }, {
+      "uid" : "6da7bc8ba36e5f1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651382570435,
+        "stop" : 1651382577790,
+        "duration" : 7355
+      }
+    }, {
+      "uid" : "4199d1eca0d3f511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651382543589,
+        "stop" : 1651382552125,
+        "duration" : 8536
+      }
+    }, {
+      "uid" : "a14cf3ef778d567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377423576,
+        "stop" : 1651377434430,
+        "duration" : 10854
+      }
+    }, {
+      "uid" : "3f4de8cc194db8e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377401242,
+        "stop" : 1651377412531,
+        "duration" : 11289
+      }
+    }, {
+      "uid" : "5db4618bdea0becd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377382642,
+        "stop" : 1651377390513,
+        "duration" : 7871
+      }
+    }, {
+      "uid" : "a6e00edbf652a455",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377363951,
+        "stop" : 1651377371665,
+        "duration" : 7714
+      }
+    }, {
+      "uid" : "3d343978e7be7e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377338398,
+        "stop" : 1651377352567,
+        "duration" : 14169
+      }
+    }, {
+      "uid" : "9a5b33824bf85b0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377319544,
+        "stop" : 1651377327504,
+        "duration" : 7960
+      }
+    }, {
+      "uid" : "37d198dc185a56b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377299858,
+        "stop" : 1651377307603,
+        "duration" : 7745
+      }
+    }, {
+      "uid" : "4b25b81dc7c2f8e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375952637,
+        "stop" : 1651375960472,
+        "duration" : 7835
+      }
+    }, {
+      "uid" : "f7a212b5174a1e6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375926725,
+        "stop" : 1651375935550,
+        "duration" : 8825
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84ea81f9024db9fc.json",
+  "parameterValues" : [ ]
+}

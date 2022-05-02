@@ -1,0 +1,48 @@
+{
+  "uid" : "29b537e2e84f8945",
+  "name" : "can filter for uncompleted tasks",
+  "fullName" : "example to-do app with a checked task.can filter for uncompleted tasks",
+  "historyId" : "305b08bbe50a282c9d5ba50116129b1c",
+  "time" : {
+    "start" : 1651384958184,
+    "stop" : 1651384958764,
+    "duration" : 580
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "testMethod",
+    "value" : "can filter for uncompleted tasks"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29b537e2e84f8945.json",
+  "parameterValues" : [ ]
+}

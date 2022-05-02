@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651386840463' stop='1651386905031'>
+    <name>My First Test Suit</name>
+    <title>My First Test Suit</title>
+    <test-cases>
+        <test-case start='1651386840504' status='broken' stop='1651386904984'>
+            <name>My first Test case</name>
+            <title>My first Test case</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'name')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'name')
+                    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\integration\2-advanced-examples\Test9Framework.js:107:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

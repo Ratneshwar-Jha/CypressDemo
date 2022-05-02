@@ -1,0 +1,90 @@
+{
+  "uid" : "eca705483620571a",
+  "name" : "can filter for uncompleted tasks",
+  "fullName" : "example to-do app with a checked task.can filter for uncompleted tasks",
+  "historyId" : "305b08bbe50a282c9d5ba50116129b1c",
+  "time" : {
+    "start" : 1651387213261,
+    "stop" : 1651387213811,
+    "duration" : 550
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "testMethod",
+    "value" : "can filter for uncompleted tasks"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app with a checked task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1241bedabda97cea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386497224,
+        "stop" : 1651386497889,
+        "duration" : 665
+      }
+    }, {
+      "uid" : "29b537e2e84f8945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651384958184,
+        "stop" : 1651384958764,
+        "duration" : 580
+      }
+    }, {
+      "uid" : "6b714f716392b1b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377260947,
+        "stop" : 1651377261623,
+        "duration" : 676
+      }
+    }, {
+      "uid" : "e12c38ecb93188b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375856576,
+        "stop" : 1651375857161,
+        "duration" : 585
+      }
+    }, {
+      "uid" : "ccba3e52be1057ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375663205,
+        "stop" : 1651375663750,
+        "duration" : 545
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eca705483620571a.json",
+  "parameterValues" : [ ]
+}

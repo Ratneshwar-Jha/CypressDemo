@@ -3,7 +3,10 @@
   "reporter": "mochawesome",
   "testFiles": "**/*.{feature,js}",
   "defaultCommandTimeout": 15000,
-  "chromeWebSecurity":false
+  "chromeWebSecurity":false,
+  "retries":{
+    "runMode":1
+  }
   
  
 }

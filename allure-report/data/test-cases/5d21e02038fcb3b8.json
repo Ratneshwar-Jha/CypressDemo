@@ -1,0 +1,48 @@
+{
+  "uid" : "5d21e02038fcb3b8",
+  "name" : "can add new todo items",
+  "fullName" : "example to-do app.can add new todo items",
+  "historyId" : "b66859b7c09109690f17770c11d7896c",
+  "time" : {
+    "start" : 1651375661883,
+    "stop" : 1651375662751,
+    "duration" : 868
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add new todo items"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d21e02038fcb3b8.json",
+  "parameterValues" : [ ]
+}
