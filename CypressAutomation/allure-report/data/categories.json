@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 15000ms: Expected to find element: `h1[class*='pricing-title']`, but never found it. Queried from element: <body>",
+      "children" : [ {
+        "name" : "Demo example",
+        "uid" : "c4d941f707b4ee7d",
+        "parentUid" : "a2470a9f85987c64369ec70b4b2f294c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651392830379,
+          "stop" : 1651392888549,
+          "duration" : 58170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2470a9f85987c64369ec70b4b2f294c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

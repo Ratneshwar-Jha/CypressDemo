@@ -1,0 +1,48 @@
+{
+  "uid" : "e84e634a24376123",
+  "name" : "can check off an item as completed",
+  "fullName" : "example to-do app.can check off an item as completed",
+  "historyId" : "2d21639f1b039d4eb00c1d1650dc7e54",
+  "time" : {
+    "start" : 1651375856099,
+    "stop" : 1651375856564,
+    "duration" : 465
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testMethod",
+    "value" : "can check off an item as completed"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e84e634a24376123.json",
+  "parameterValues" : [ ]
+}

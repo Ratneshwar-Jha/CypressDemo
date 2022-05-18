@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-02T12:52:35.707Z",
+    "end": "2022-05-02T12:52:46.239Z",
+    "duration": 10532,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "aa63418a-3761-40c3-97be-fc188253db45",
+      "title": "",
+      "fullFile": "cypress/integration/2-advanced-examples/GroupOne/Test6.js",
+      "file": "cypress/integration/2-advanced-examples/GroupOne/Test6.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e753e946-2822-4bd7-ab5b-8541ebbed646",
+          "title": "My First Test Suit",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "My first Test case",
+              "fullTitle": "My First Test Suit My first Test case",
+              "timedOut": null,
+              "duration": 8192,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://rahulshettyacademy.com/AutomationPractice/\"); //First way to click hidden item\n//cy.get('div.mouse-hover-content').invoke('show')\n//cy.contains('Top').click()\n//cy.url().should('include','top')\n//Second way to click hidden item forcefully\ncy.contains('Top').click({\n  force: true\n}); //validate if URL contais top word in it\ncy.url().should('include', 'top');",
+              "err": {},
+              "uuid": "6d7a0f67-7285-48a8-9235-b38e2726c65a",
+              "parentUUID": "e753e946-2822-4bd7-ab5b-8541ebbed646",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6d7a0f67-7285-48a8-9235-b38e2726c65a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8192,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "3f44853a4706a57d",
+  "name" : "displays two todo items by default",
+  "fullName" : "example to-do app.displays two todo items by default",
+  "historyId" : "46a278017f3323391c62ae8c2fbc99aa",
+  "time" : {
+    "start" : 1651387206235,
+    "stop" : 1651387212027,
+    "duration" : 5792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testMethod",
+    "value" : "displays two todo items by default"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d6e02b114b1cd007",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386490803,
+        "stop" : 1651386495877,
+        "duration" : 5074
+      }
+    }, {
+      "uid" : "277ef6ff966c1ad0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651384951389,
+        "stop" : 1651384956935,
+        "duration" : 5546
+      }
+    }, {
+      "uid" : "61a0c6a2acf68d72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377254215,
+        "stop" : 1651377259435,
+        "duration" : 5220
+      }
+    }, {
+      "uid" : "428ad76cacc736c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375850764,
+        "stop" : 1651375855259,
+        "duration" : 4495
+      }
+    }, {
+      "uid" : "924eb1c0972b0a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375656356,
+        "stop" : 1651375661870,
+        "duration" : 5514
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f44853a4706a57d.json",
+  "parameterValues" : [ ]
+}

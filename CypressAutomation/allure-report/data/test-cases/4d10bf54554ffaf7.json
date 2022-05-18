@@ -1,0 +1,50 @@
+{
+  "uid" : "4d10bf54554ffaf7",
+  "name" : "Demo example",
+  "fullName" : "Frames-test.Demo example",
+  "historyId" : "a4342a9890b8a5b63c9b78cfe8f7364c",
+  "time" : {
+    "start" : 1651385238292,
+    "stop" : 1651385281749,
+    "duration" : 43457
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 15000ms: Expected to find element: `h1[class*='pricing-title']`, but never found it. Queried from element: <body>",
+  "statusTrace" : "AssertionError: Timed out retrying after 15000ms: Expected to find element: `h1[class*='pricing-title']`, but never found it. Queried from element: <body>\n                    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\Test8Frame.js:108:52)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Frames-test"
+  }, {
+    "name" : "testClass",
+    "value" : "Frames-test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Demo example"
+  }, {
+    "name" : "package",
+    "value" : "Frames-test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d10bf54554ffaf7.json",
+  "parameterValues" : [ ]
+}

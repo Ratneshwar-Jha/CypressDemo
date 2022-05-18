@@ -1,0 +1,90 @@
+{
+  "uid" : "3210099028212826",
+  "name" : "can add new todo items",
+  "fullName" : "example to-do app.can add new todo items",
+  "historyId" : "b66859b7c09109690f17770c11d7896c",
+  "time" : {
+    "start" : 1651387212047,
+    "stop" : 1651387212787,
+    "duration" : 740
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testClass",
+    "value" : "example to-do app"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add new todo items"
+  }, {
+    "name" : "package",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e0ec8673c58a4c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651386495904,
+        "stop" : 1651386496747,
+        "duration" : 843
+      }
+    }, {
+      "uid" : "20eded71b69bd7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651384956948,
+        "stop" : 1651384957726,
+        "duration" : 778
+      }
+    }, {
+      "uid" : "6c65af7fd88b7307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651377259449,
+        "stop" : 1651377260456,
+        "duration" : 1007
+      }
+    }, {
+      "uid" : "b15a09332a49dfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375855282,
+        "stop" : 1651375856093,
+        "duration" : 811
+      }
+    }, {
+      "uid" : "ca4dad9eed16f676",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651375661883,
+        "stop" : 1651375662751,
+        "duration" : 868
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3210099028212826.json",
+  "parameterValues" : [ ]
+}

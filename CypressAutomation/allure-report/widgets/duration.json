@@ -1,0 +1,91 @@
+[ {
+  "uid" : "3f44853a4706a57d",
+  "name" : "displays two todo items by default",
+  "time" : {
+    "start" : 1651387206235,
+    "stop" : 1651387212027,
+    "duration" : 5792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3210099028212826",
+  "name" : "can add new todo items",
+  "time" : {
+    "start" : 1651387212047,
+    "stop" : 1651387212787,
+    "duration" : 740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4d941f707b4ee7d",
+  "name" : "Demo example",
+  "time" : {
+    "start" : 1651392830379,
+    "stop" : 1651392888549,
+    "duration" : 58170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f23f77c2e6ef1052",
+  "name" : "Product deleivery",
+  "time" : {
+    "start" : 1651375882630,
+    "stop" : 1651375891883,
+    "duration" : 9253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b097744e7848cd96",
+  "name" : "can check off an item as completed",
+  "time" : {
+    "start" : 1651387212799,
+    "stop" : 1651387213250,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae9d6b2942ea6f08",
+  "name" : "My first Test case",
+  "time" : {
+    "start" : 1651393595551,
+    "stop" : 1651393606181,
+    "duration" : 10630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ebdacda61c2c25b",
+  "name" : "can delete all completed tasks",
+  "time" : {
+    "start" : 1651387214409,
+    "stop" : 1651387215094,
+    "duration" : 685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f325124bca29b79",
+  "name" : "can filter for completed tasks",
+  "time" : {
+    "start" : 1651387213817,
+    "stop" : 1651387214397,
+    "duration" : 580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f397da33c8005b",
+  "name" : "can filter for uncompleted tasks",
+  "time" : {
+    "start" : 1651387213261,
+    "stop" : 1651387213811,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

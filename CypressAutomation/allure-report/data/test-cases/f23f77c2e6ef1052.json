@@ -1,0 +1,50 @@
+{
+  "uid" : "f23f77c2e6ef1052",
+  "name" : "Product deleivery",
+  "fullName" : "End to end validation.Product deleivery",
+  "historyId" : "3c0be0e24b31abeba0935f4b03297f1f",
+  "time" : {
+    "start" : 1651375882630,
+    "stop" : 1651375891883,
+    "duration" : 9253
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "End to end validation"
+  }, {
+    "name" : "testClass",
+    "value" : "End to end validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Product deleivery"
+  }, {
+    "name" : "package",
+    "value" : "End to end validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f23f77c2e6ef1052.json",
+  "parameterValues" : [ ]
+}

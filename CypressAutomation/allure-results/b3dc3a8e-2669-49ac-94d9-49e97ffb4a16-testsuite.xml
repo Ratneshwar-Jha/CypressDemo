@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651385387516' stop='1651385389281'>
+    <name>My First Test Suit</name>
+    <title>My First Test Suit</title>
+    <test-cases>
+        <test-case start='1651385387516' status='broken' stop='1651385389254'>
+            <name>My first Test case</name>
+            <title>My first Test case</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://qa1.myhcl.com/smartrecruit_CBT
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://qa1.myhcl.com/smartrecruit_CBT
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at http://localhost:63912/__cypress/runner/cypress_runner.js:159318:82
+                    at visitFailedByErr (http://localhost:63912/__cypress/runner/cypress_runner.js:158668:12)
+                    at http://localhost:63912/__cypress/runner/cypress_runner.js:159317:11
+                    at tryCatcher (http://localhost:63912/__cypress/runner/cypress_runner.js:13022:23)
+                    at Promise._settlePromiseFromHandler (http://localhost:63912/__cypress/runner/cypress_runner.js:10957:31)
+                    at Promise._settlePromise (http://localhost:63912/__cypress/runner/cypress_runner.js:11014:18)
+                    at Promise._settlePromise0 (http://localhost:63912/__cypress/runner/cypress_runner.js:11059:10)
+                    at Promise._settlePromises (http://localhost:63912/__cypress/runner/cypress_runner.js:11135:18)
+                    at _drainQueueStep (http://localhost:63912/__cypress/runner/cypress_runner.js:7729:12)
+                    at _drainQueue (http://localhost:63912/__cypress/runner/cypress_runner.js:7722:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:63912/__cypress/runner/cypress_runner.js:7738:5)
+                    at Async.drainQueues (http://localhost:63912/__cypress/runner/cypress_runner.js:7608:14)
+                From Your Spec Code:
+                    at Context.eval (http://localhost:63912/__cypress/tests?p=cypress\integration\2-advanced-examples\TestingGoogle.js:102:8)
+                
+                From Node.js Internals:
+                  Error: getaddrinfo ENOTFOUND qa1.myhcl.com
+                      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+                  </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

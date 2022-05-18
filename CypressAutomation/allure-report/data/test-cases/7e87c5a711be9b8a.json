@@ -1,0 +1,48 @@
+{
+  "uid" : "7e87c5a711be9b8a",
+  "name" : "My first Test case",
+  "fullName" : "My First Test Suit.My first Test case",
+  "historyId" : "d0513c36df55aa783ca6700002a3b2e7",
+  "time" : {
+    "start" : 1651382570435,
+    "stop" : 1651382577790,
+    "duration" : 7355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "testClass",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "testMethod",
+    "value" : "My first Test case"
+  }, {
+    "name" : "package",
+    "value" : "My First Test Suit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e87c5a711be9b8a.json",
+  "parameterValues" : [ ]
+}
