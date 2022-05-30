@@ -1,6 +1,9 @@
 {
   "projectId": "q2sm2j",
-  "reporter": "mochawesome",
+  "reporter": "junit",
+  "repoterOptions":{
+    "mochaFile":"results/results-[hash].xml"
+  },
   "testFiles": "**/*.{feature,js}",
   "defaultCommandTimeout": 15000,
   "chromeWebSecurity":false,
