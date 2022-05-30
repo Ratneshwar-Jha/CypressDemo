@@ -14,16 +14,14 @@
     "singleTestInChrome": "npm run test -- --headed --browser chrome --spec cypress\\integration\\2-advanced-examples\\TestingGoogle.js",
     "recordDashBoardTest": "npm run test -- --record --key 31f31869-46bd-4591-b26b-228865bc2a46 --reporter mocha",
     "GreenKartTest": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GreenKart/*\"",
-    "GoogleTesting": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GoogleTesting/*\"",
+    "GoogleTesting_SR": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GoogleTesting_SR/*\"",
     "SR_Automation": "npm run test -- --spec \"cypress/integration/2-advanced-examples/SR_Automation/*\"",
     "GreenKartTestHeaded": "npm run test -- --headed --browser chrome --spec \"cypress/integration/2-advanced-examples/GreenKart/*\" --reporter mocha-allure-reporter",
     "GreenKartTestHeadedAllure": "npm run GreenKartTestHeaded && npm run report:allure",
     "AllHeaded": "npm run headTest && npm run report:allure",
-    "GroupOne":"npm run test -- --spec \"cypress/integration/2-advanced-examples/GroupOne/*\"",
+    "GroupOne": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GroupOne/*\"",
     "GroupOneAllure": "npm run GroupOne -- --headed --browser chrome && npm run report:allure",
-
     "AllTestInAllure": "npm run test -- --headed --browser chrome --reporter mocha-allure-reporter && npm run report:allure"
-    
   },
   "author": "",
   "license": "ISC",
@@ -41,5 +39,8 @@
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.2.1",
     "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "typescript": "^4.7.2"
   }
 }
