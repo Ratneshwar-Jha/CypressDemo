@@ -31,7 +31,7 @@
     "recordDashBoardTest": "npm run test -- --record --key 31f31869-46bd-4591-b26b-228865bc2a46 --reporter mocha",
     "GreenKartTest": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GreenKart/*\"",
     "GoogleTesting_SR": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GoogleTesting_SR/*\"",
-    "SR_Automation": "npm run test -- --spec \"cypress/integration/2-advanced-examples/SR_Automation/*\"",
+    "SR_Automation": "npm run test -- --spec \"cypress/integration/2-advanced-examples/SR_Automation/*\"-- --reporter junit",
     "GreenKartTestHeaded": "npm run test -- --headed --browser chrome --spec \"cypress/integration/2-advanced-examples/GreenKart/*\" --reporter mocha-allure-reporter",
     "Group2": "npm run test -- --headed --browser chrome --spec \"cypress/integration/2-advanced-examples/Group2/*\" --reporter mocha-allure-reporter",
     "GreenKartTestHeadedAllure": "npm run GreenKartTestHeaded && npm run report:allure",
