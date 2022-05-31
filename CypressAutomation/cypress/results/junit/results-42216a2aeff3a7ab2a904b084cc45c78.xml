@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.9620" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-05-31T10:32:09" tests="0" file="cypress/integration/2-advanced-examples/SR_Automation/Test1.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="My First Test Suit" timestamp="2022-05-31T10:32:09" tests="1" time="1.9420" failures="1">
+    <testcase name="My First Test Suit My first Test case" time="1.0520" classname="My first Test case">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa1.myhcl.com/smartrecruit_CBT
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa1.myhcl.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa1.myhcl.com/smartrecruit_CBT
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at http://localhost:61208/__cypress/runner/cypress_runner.js:163608:82
+    at visitFailedByErr (http://localhost:61208/__cypress/runner/cypress_runner.js:162912:12)
+    at http://localhost:61208/__cypress/runner/cypress_runner.js:163607:11
+    at tryCatcher (http://localhost:61208/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (http://localhost:61208/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (http://localhost:61208/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (http://localhost:61208/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (http://localhost:61208/__cypress/runner/cypress_runner.js:11135:18)
+    at _drainQueueStep (http://localhost:61208/__cypress/runner/cypress_runner.js:7729:12)
+    at _drainQueue (http://localhost:61208/__cypress/runner/cypress_runner.js:7722:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:61208/__cypress/runner/cypress_runner.js:7738:5)
+    at Async.drainQueues (http://localhost:61208/__cypress/runner/cypress_runner.js:7608:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:61208/__cypress/tests?p=cypress\integration\2-advanced-examples\SR_Automation\Test1.js:102:8)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa1.myhcl.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+  ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

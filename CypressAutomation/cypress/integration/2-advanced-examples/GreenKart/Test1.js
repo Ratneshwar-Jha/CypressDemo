@@ -1,6 +1,6 @@
 
 /// <reference types="Cypress"/>
-describe('My First Test Suit',function () 
+describe('green cart1',function () 
 
 {
     

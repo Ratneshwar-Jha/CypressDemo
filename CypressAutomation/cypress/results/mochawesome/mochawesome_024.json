@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-05-31T10:36:41.831Z",
+    "end": "2022-05-31T10:36:43.780Z",
+    "duration": 1949,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3729a0cd-f5fb-4754-9f32-2e45205f3801",
+      "title": "",
+      "fullFile": "cypress/integration/2-advanced-examples/TestingGoogle.js",
+      "file": "cypress/integration/2-advanced-examples/TestingGoogle.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b6987cd-55b4-47e4-bb29-fe9f39819ca8",
+          "title": "My First Test Suit",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "My first Test case",
+              "fullTitle": "My First Test Suit My first Test case",
+              "timedOut": null,
+              "duration": 848,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://qa1.myhcl.com/smartrecruit_CBT\"); //cy.visit(\"https://www.google.com\");\ncy.get('#EmployeeCode').type(\"40162201\");\ncy.get('#Password').type(\"123\");\ncy.get('b').click();\ncy.get('#SubmitButton').click(); //cy.get().window().",
+              "err": {
+                "message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://qa1.myhcl.com/smartrecruit_CBT\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+                "estack": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://qa1.myhcl.com/smartrecruit_CBT\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at http://localhost:61208/__cypress/runner/cypress_runner.js:163608:82\n    at visitFailedByErr (http://localhost:61208/__cypress/runner/cypress_runner.js:162912:12)\n    at http://localhost:61208/__cypress/runner/cypress_runner.js:163607:11\n    at tryCatcher (http://localhost:61208/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (http://localhost:61208/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (http://localhost:61208/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (http://localhost:61208/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (http://localhost:61208/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (http://localhost:61208/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (http://localhost:61208/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:61208/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (http://localhost:61208/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:61208/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\TestingGoogle.js:102:8)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND qa1.myhcl.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)\n  ",
+                "diff": null
+              },
+              "uuid": "ae180f50-694d-4fce-af83-612880f4af84",
+              "parentUUID": "3b6987cd-55b4-47e4-bb29-fe9f39819ca8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "ae180f50-694d-4fce-af83-612880f4af84"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 848,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,15 +1,13 @@
 {
   "projectId": "q2sm2j",
-  "reporter": "junit",
-  "repoterOptions":{
-    "mochaFile":"results/results-[hash].xml"
+  "reporter": "cypress-multi-reporters",
+  "repoterOptions": {
+    "configFile": "reporter-config.json"
   },
   "testFiles": "**/*.{feature,js}",
   "defaultCommandTimeout": 15000,
-  "chromeWebSecurity":false,
-  "retries":{
-    "runMode":1
+  "chromeWebSecurity": false,
+  "retries": {
+    "runMode": 1
   }
-  
- 
 }

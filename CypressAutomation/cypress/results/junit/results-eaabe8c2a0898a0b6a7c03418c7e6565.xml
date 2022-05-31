@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.7440" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-05-31T10:27:53" tests="0" file="cypress/integration/2-advanced-examples/GreenKart/Test2.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="green cart2" timestamp="2022-05-31T10:27:53" tests="1" time="8.7040" failures="0">
+    <testcase name="green cart2 My first Test case" time="5.3790" classname="My first Test case">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,6 +1,6 @@
 {
   "projectId": "q2sm2j",
-  "testFiles": "**/*.{feature,js}",
+  "testFiles": "**/*.{feature,js,ts}",
   "defaultCommandTimeout": 15000,
   "chromeWebSecurity": false,
   "retries": {
@@ -10,23 +10,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "results/my-test-output-[hash].xml",
-    "toConsole": false
-  },
-  "reporterEnabled": "spec, mocha-junit-reporter",
-  "mochaJunitReporterReporterOptions": {
-    "mochaFile": "cypress/results/results-[hash].xml",
-    "overwrite": false,
-    "toConsole": true,
-    "attachments": true
-  },
-  "video": false,
-  "pluginsFile": "cypress/plugins/index.js",
-  "supportFile": "cypress/support/index.js",
   "scripts": {
-    "merge-reports": "jrm combined.xml \"results/*.xml\"",
     "electron-test": "cypress run",
     "postelectron-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
     "script-electron": "npm run electron-test || npm run postelectron-test",
