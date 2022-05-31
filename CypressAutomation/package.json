@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "delete:reports": "rm cypress/results/* || true",
+    "combine:reports": "jrm cypress/results/combined-report.xml \"cypress/results/*.xml\"",
+    "prereport": "npm run delete:reports",
+    "report": "cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json",
+    "postreport": "npm run combine:reports",
     "test": "node_modules\\.bin\\cypress run ",
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --headed --browser chrome --reporter mocha-allure-reporter",
