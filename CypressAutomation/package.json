@@ -17,9 +17,18 @@
   },
     "reporterEnabled": "spec, mocha-junit-reporter",
   "mochaJunitReporterReporterOptions": {
-    "mochaFile": "cypress/results/results-[hash].xml"
+    "mochaFile": "cypress/results/results-[hash].xml",
+    "overwrite": false,
+    "toConsole": true,
+    "attachments": true
   },
+  "video": false,
+    "pluginsFile": "cypress/plugins/index.js",
+    "supportFile": "cypress/support/index.js",
   "scripts": {
+    "electron-test": "cypress run",
+"postelectron-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
+"script-electron": "npm run electron-test || npm run postelectron-test",
     "test": "node_modules\\.bin\\cypress run ",
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --headed --browser chrome --reporter mocha-allure-reporter",
