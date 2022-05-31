@@ -17,6 +17,7 @@
     "GoogleTesting_SR": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GoogleTesting_SR/*\"",
     "SR_Automation": "npm run test -- --spec \"cypress/integration/2-advanced-examples/SR_Automation/*\"",
     "GreenKartTestHeaded": "npm run test -- --headed --browser chrome --spec \"cypress/integration/2-advanced-examples/GreenKart/*\" --reporter mocha-allure-reporter",
+    "Group2": "npm run test -- --headed --browser chrome --spec \"cypress/integration/2-advanced-examples/Group2/*\" --reporter mocha-allure-reporter",
     "GreenKartTestHeadedAllure": "npm run GreenKartTestHeaded && npm run report:allure",
     "AllHeaded": "npm run headTest && npm run report:allure",
     "GroupOne": "npm run test -- --spec \"cypress/integration/2-advanced-examples/GroupOne/*\"",
@@ -31,7 +32,7 @@
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.26.5",
     "allure-commandline": "^2.17.2",
-    "cypress": "^9.5.3",
+    "cypress": "^9.7.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-iframe": "^1.0.1",
     "mocha": "^9.2.2",
